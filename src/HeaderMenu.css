@@ -1,0 +1,22 @@
+.header-Menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: gray;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.header-Menu:hover{
+    color: black;
+    font-weight: bold;
+}
+.header-option-title{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.header-avatar{
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
+}

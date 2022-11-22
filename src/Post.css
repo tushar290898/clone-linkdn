@@ -1,0 +1,42 @@
+.Posts{
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.Post-top{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.Post-info {
+    margin-left: 5px;
+}
+
+.Post-info > h2{
+    font-size: 18px;
+}
+
+.Post-info> h4{
+    font-size: 13px;
+    color: gray;
+    font-weight: 500;
+}
+
+.post-body > h3{
+    font-size: 15px;
+    font-weight: 500;
+}
+.post-body{
+    overflow-wrap:anywhere;
+}
+
+
+.post-bottom{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    /* padding: 10px; */
+}
